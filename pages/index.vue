@@ -43,7 +43,7 @@
                                 </div>
                                 <div class="content">
                                     <div class="bkseparator--25"></div>
-                                    <p class="bk_pra pr--40 wow move-up">Contat me below </p>
+                                    <p class="bk_pra pr--40 wow move-up">Contact me below </p>
                                     <div class="freelancer-contact mt--40">
                                         <h5 class="heading bk-hover heading-h5 font-400 line-height-1-39 wow move-up">
                                             <a href="mailto:info@yourdomain.com">gavinearley@gmail.com</a>
