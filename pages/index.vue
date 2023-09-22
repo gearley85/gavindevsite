@@ -137,7 +137,6 @@
 
         data () {
             return {
-                blog,
                 portfolioData,
                 navOpen: false,
                 searchOpen: false
