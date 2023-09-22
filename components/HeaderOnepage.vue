@@ -5,7 +5,7 @@
                 <div class="branding">
                     <div class="logo">
                         <nuxt-link to="/">
-                            <img src="/img/logo/simple-light-logo.png" alt="brook logo">
+                            <img src="/img/logo/simple-light-logo.png" alt="gavin logo">
                         </nuxt-link>
                     </div>
                 </div>
@@ -31,7 +31,7 @@
                 <div class="header-text text-end">
                     <h5 class="heading heading-h5 font-20 text-white"> 
                         <span class="fa fa-heart"></span> 
-                        Hello, we are brook studio
+                        Hello
                     </h5>
                 </div>
             </div>

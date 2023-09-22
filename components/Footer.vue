@@ -16,18 +16,7 @@
                         <h2 class="widgettitle">About us</h2>
                         <div class="footer-menu">
                             <ul class="ft-menu-list bk-hover">
-                                <li>
-                                    <nuxt-link to="/about-us-01">About Us</nuxt-link>
-                                </li>
-                                <li>
-                                    <nuxt-link to="/team-grid">Team</nuxt-link>
-                                </li>
-                                <li>
-                                    <nuxt-link to="/career">Career</nuxt-link>
-                                </li>
-                                <li>
-                                    <nuxt-link to="/services-classic">Services</nuxt-link>
-                                </li>
+   
                                 <li>
                                     <nuxt-link to="/contact-us-modern">Contact</nuxt-link>
                                 </li>
@@ -39,30 +28,16 @@
                     <div class="footer-widget menu--contact">
                         <h2 class="widgettitle">Contact</h2>
                         <div class="footer-address bk-hover mb--20">
-                            <p>Your address goes here <br> ana villa 10010, USA</p>
+                           
                             <p>
-                                <a href="mailto:info@yourdomain.com">info@yourdomain.com</a>
-                            </p>
-                            <p>
-                                <a href="tel:0123456789">0123456789</a>
+                                <a href="mailto:info@yourdomain.com">gavinearley@gmail.com</a>
                             </p>
                         </div>
                         <div class="social-share social--transparent text-white">
-                            <a href="https://www.facebook.com/" target="_blank">
-                                <i class="fab fa-facebook"></i>
+                            <a href="https://www.linkedin.com/in/earleygavin/" target="_blank">
+                                <i class="fab fa-linkedin"></i>
                             </a>
-                            <a href="https://twitter.com/" target="_blank">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="https://www.instagram.com/" target="_blank">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <a href="https://dribbble.com/" target="_blank">
-                                <i class="fab fa-dribbble"></i>
-                            </a>
-                            <a href="https://www.pinterest.com/" target="_blank">
-                                <i class="fab fa-pinterest"></i>
-                            </a>
+
                         </div>
                     </div>
                 </div>
@@ -74,9 +49,7 @@
                 <div class="col-md-6">
                     <div class="copyright-left text-start">
                         <ul class="bk-copyright-menu d-flex justify-content-center justify-content-md-start bk-hover">
-                            <li>
-                                <nuxt-link to="/blog/blog-creative">Our Blogs</nuxt-link>
-                            </li>
+
                             <li>
                                 <nuxt-link to="/portfolio/portfolio-grid-boxed">Latest Projects</nuxt-link>
                             </li>
@@ -88,7 +61,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="copyright-right text-center text-md-end">
-                        <p>&copy; 2023 <b>Brook</b> Made with <i class="fa fa-heart text-danger"></i> by <a href="https://hasthemes.com/"><b>HasThemes</b></a></p>
+                        <p>&copy; 2023 </p>
                     </div>
                 </div>
             </div>
