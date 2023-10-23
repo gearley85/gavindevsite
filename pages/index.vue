@@ -26,9 +26,7 @@
                                 <div class="bkseparator--30"></div>
                                 <p class="bk_pra">I am a software engineer, husband, father, amateur photographer and licensed drone pilot.</p>
                                 <div class="bkseparator--40"></div>
-                                <div class="signeture">
-                                    <img src="/img/icons/singneture2.png" alt="about image">
-                                </div>
+                              
                             </div>
                         </div>
                         <!-- End About Area -->
@@ -69,7 +67,7 @@
                         <!-- Start Portfolio Area -->
                         <div class="freelancer-portfolio">
                             <div class="brook-section-title text-start text-lg-end mb--55">
-                                <h2 class="heading heading-h2 font-50 font-400 line-height-1-62 wow move-up">Some of my work.</h2>
+                                <h2 class="heading heading-h2 font-50 font-400 line-height-1-62 wow move-up">About me.</h2>
                             </div>
 
                             <div class="portfolio portfolio_style--1 mt--30 wow move-up" v-for="portfolio in portfolioData.portfolioItems.slice(0, 7)" :key="portfolio.id">
@@ -112,7 +110,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="copyright-right text-md-end text-center">
-                                <p>&copy; 2023 <b>Gavin Earley</b> </p>
+                                <p>&copy;<span id="copyright-year">{{ copyRight }}</span> <b>Gavin Earley</b> </p>
                             </div>
                         </div>
                     </div>
@@ -139,7 +137,8 @@
             return {
                 portfolioData,
                 navOpen: false,
-                searchOpen: false
+                searchOpen: false,
+                copyRight: new Date().getFullYear()
             }
         },
 
@@ -153,4 +152,5 @@
             }
         },
     };
+     
 </script>
