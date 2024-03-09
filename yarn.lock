@@ -1104,7 +1104,7 @@
     unimport "^3.7.1"
     untyped "^1.4.0"
 
-"@nuxt/kit@^3.10.2", "@nuxt/kit@^3.10.3", "@nuxt/kit@^3.4.2", "@nuxt/kit@^3.6.0", "@nuxt/kit@^3.8.0", "@nuxt/kit@^3.8.1", "@nuxt/kit@^3.8.2", "@nuxt/kit@^3.9.1", "@nuxt/kit@^3.9.3":
+"@nuxt/kit@^3.10.2", "@nuxt/kit@^3.10.3", "@nuxt/kit@^3.6.0", "@nuxt/kit@^3.8.1", "@nuxt/kit@^3.8.2", "@nuxt/kit@^3.9.1", "@nuxt/kit@^3.9.3":
   version "3.10.3"
   resolved "https://registry.npmjs.org/@nuxt/kit/-/kit-3.10.3.tgz"
   integrity sha512-PUjYB9Mvx0qD9H1QZBwwtY4fLlCLET+Mm9BVqUOtXCaGoXd6u6BE4e/dGFPk2UEKkIcDGrUMSbqkHYvsEuK9NQ==
@@ -1258,17 +1258,20 @@
     vite-plugin-checker "^0.6.2"
     vue-bundle-renderer "^2.0.0"
 
-"@nuxthq/studio@1.0.6":
-  version "1.0.6"
-  resolved "https://registry.npmjs.org/@nuxthq/studio/-/studio-1.0.6.tgz"
-  integrity sha512-XGLAu6w6k9YJ5Vkvm5yojCfDIInzRmhAY8Lf5AAXj26tI7sx4Tg6JpkK0syPX/u1ajX6cPfMQp8ZDGOraQht0w==
+"@nuxthq/studio@^1.0.13":
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/@nuxthq/studio/-/studio-1.0.13.tgz#c9fad4a8742f125030118c34efdfb1ab74450ab7"
+  integrity sha512-C4j+K53om5Kj5xLrehWEbnDJlid5tDsHP7QdOIsK550dHOxPmvaXMH4YxsSNU8cDppMheMbN59zdYhQaQfko6g==
   dependencies:
-    "@nuxt/kit" "^3.8.0"
-    defu "^6.1.3"
-    nuxt-component-meta "^0.6.0"
-    nuxt-config-schema "^0.4.6"
-    socket.io-client "^4.7.2"
-    ufo "^1.3.1"
+    "@nuxt/kit" "^3.10.3"
+    defu "^6.1.4"
+    git-url-parse "^14.0.0"
+    nuxt-component-meta "^0.6.3"
+    parse-git-config "^3.0.0"
+    pkg-types "^1.0.3"
+    socket.io-client "^4.7.4"
+    ufo "^1.4.0"
+    untyped "^1.4.2"
 
 "@nuxtjs/color-mode@^3.3.2":
   version "3.3.2"
@@ -3762,6 +3765,13 @@ git-url-parse@^13.1.1:
   dependencies:
     git-up "^7.0.0"
 
+git-url-parse@^14.0.0:
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/git-url-parse/-/git-url-parse-14.0.0.tgz#18ce834726d5fbca0c25a4555101aa277017418f"
+  integrity sha512-NnLweV+2A4nCvn4U/m2AoYu0pPKlsmhK9cknG7IMwsjFY1S2jxM+mAhsDxyxfCIGfGaD+dozsyX4b6vkYc83yQ==
+  dependencies:
+    git-up "^7.0.0"
+
 github-from-package@0.0.0:
   version "0.0.0"
   resolved "https://registry.npmjs.org/github-from-package/-/github-from-package-0.0.0.tgz"
@@ -4446,7 +4456,7 @@ jackspeak@^2.3.5:
   optionalDependencies:
     "@pkgjs/parseargs" "^0.11.0"
 
-jiti@^1.18.2, jiti@^1.19.1, jiti@^1.21.0:
+jiti@^1.19.1, jiti@^1.21.0:
   version "1.21.0"
   resolved "https://registry.npmjs.org/jiti/-/jiti-1.21.0.tgz"
   integrity sha512-gFqAIbuKyyso/3G2qhiO2OM6shY6EPP/R0+mkDbyspxKazh8BXDC5FiFsUjlczgdNz/vfra0da2y+aHrusLG/Q==
@@ -5789,9 +5799,9 @@ nuxi@^3.10.0:
   optionalDependencies:
     fsevents "~2.3.3"
 
-nuxt-component-meta@^0.6.0:
+nuxt-component-meta@^0.6.3:
   version "0.6.3"
-  resolved "https://registry.npmjs.org/nuxt-component-meta/-/nuxt-component-meta-0.6.3.tgz"
+  resolved "https://registry.yarnpkg.com/nuxt-component-meta/-/nuxt-component-meta-0.6.3.tgz#f299368072f85f86a78e7169988e26603c7ff75c"
   integrity sha512-GdqnSMC1vqabry7WSj3GWA2LZ1gBiWeS2lj943c9TjkL9SN/rABEFXVZA6RO4sOTKF1qV947UGi27PdRd7u+tA==
   dependencies:
     "@nuxt/kit" "^3.9.1"
@@ -5799,17 +5809,6 @@ nuxt-component-meta@^0.6.0:
     scule "^1.1.1"
     typescript "^5.3.3"
     vue-component-meta "^1.8.27"
-
-nuxt-config-schema@^0.4.6:
-  version "0.4.6"
-  resolved "https://registry.npmjs.org/nuxt-config-schema/-/nuxt-config-schema-0.4.6.tgz"
-  integrity sha512-kHLWJFynj5QrxVZ1MjY2xmDaTSN1BCMLGExA+hMMLoCb3wn9TJlDVqnE/nSdUJPMRkNn/NQ5WP9NLA9vlAXRUw==
-  dependencies:
-    "@nuxt/kit" "^3.4.2"
-    defu "^6.1.2"
-    jiti "^1.18.2"
-    pathe "^1.0.0"
-    untyped "^1.3.2"
 
 nuxt-icon@0.6.7, nuxt-icon@^0.6.7:
   version "0.6.7"
@@ -7138,7 +7137,7 @@ smob@^1.0.0:
   resolved "https://registry.npmjs.org/smob/-/smob-1.4.1.tgz"
   integrity sha512-9LK+E7Hv5R9u4g4C3p+jjLstaLe11MDsL21UpYaCNmapvMkYhqCV4A/f/3gyH8QjMyh6l68q9xC85vihY9ahMQ==
 
-socket.io-client@^4.7.2, socket.io-client@^4.7.4:
+socket.io-client@^4.7.4:
   version "4.7.4"
   resolved "https://registry.npmjs.org/socket.io-client/-/socket.io-client-4.7.4.tgz"
   integrity sha512-wh+OkeF0rAVCrABWQBaEjLfb7DVPotMbu0cgWgyR0v6eA4EoVnAwcIeIbcdTE3GT/H3kbdLl7OoH2+asoDRIIg==
@@ -7890,7 +7889,7 @@ untun@^0.1.3:
     consola "^3.2.3"
     pathe "^1.1.1"
 
-untyped@^1.3.2, untyped@^1.4.0, untyped@^1.4.2:
+untyped@^1.4.0, untyped@^1.4.2:
   version "1.4.2"
   resolved "https://registry.npmjs.org/untyped/-/untyped-1.4.2.tgz"
   integrity sha512-nC5q0DnPEPVURPhfPQLahhSTnemVtPzdx7ofiRxXpOB2SYnb3MfdU3DVGyJdS8Lx+tBWeAePO8BfU/3EgksM7Q==
