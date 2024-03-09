@@ -25,8 +25,5 @@
     "@iconify-json/lucide": "1.1.145",
     "@nuxt/ui": "2.11.1",
     "vue-use-fixed-header": "^2.0.0"
-  },
-  "engines": {
-    "node": "^20.0"
   }
 }
