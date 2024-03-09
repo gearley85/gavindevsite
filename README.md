@@ -1,42 +1,50 @@
-# Nuxt 3 Minimal Starter
+# Zooper
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Zooper is a beautiful personal portfolio template for developers, programmers, freelancers and designers.
 
-## Setup
+![Zooper template home preview](https://zooper.pages.dev/preview.jpg)
 
-Make sure to install the dependencies:
 
-```bash
-# yarn
-yarn install
+## Features
 
-# npm
-npm install
+Full features blog 📝.
+CMS ready 🚀.
+Super fast ⚡.
+SEO friendly 📈.
+Fully responsive 📱.
+Dark mode 🌗.
+Syntax highlighting 🌈.
+Social media links 🔗.
+Code preview playground 🎮.
+Uses page 🧑‍💻
+Bookmarks 📑.
 
-# pnpm
-pnpm install --shamefully-hoist
-```
+## Roadmap
 
-## Development Server
+Comments
+Tags
+Categories
+Pagination
+Sitemap
+RSS feeds
+Search
+Likes
 
-Start the development server on http://localhost:3000
+## Tech Stack
 
-```bash
-npm run dev
-```
+1. Nuxt JS
+2. Tailwind CSS
+3. Vue
+4. Nuxt Content Module
+5. Shiki JS ES
 
-## Production
+## Installation
 
-Build the application for production:
+1. `git clone` this repo or click on `Use this template` button.
+2. `cd` into the project directory.
+3. Run `yarn install` to install the dependencies.
+4. Run `yarn dev` to start the development server.
 
-```bash
-npm run build
-```
+## Contributing
 
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

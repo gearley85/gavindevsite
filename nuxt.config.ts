@@ -1,19 +1,39 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    css: ["bootstrap/dist/css/bootstrap.min.css", "@/assets/scss/style.scss", "swiper/css", "swiper/css/effect-fade", "swiper/css/pagination"],
-    vite: {
-        css: {
-            preprocessorOptions: {
-                scss: {
-                    additionalData: '@import "./assets/scss/default/_variables.scss";'
-                },
-            },
-        },
+  devtools: { enabled: true },
+  modules: [
+    "@nuxt/ui",
+    "nuxt-icon",
+    "@nuxtjs/google-fonts",
+    "@nuxtjs/fontaine",
+    "@nuxt/image",
+    "@nuxt/content",
+    "@nuxthq/studio",
+    "@vueuse/nuxt"
+  ],
+  ui: {
+    icons: ["heroicons", "lucide"],
+  },
+  app: {
+    pageTransition: { name: "page", mode: "out-in" },
+    head: {
+      htmlAttrs: {
+        lang: "en",
+        class: "h-full",
+      },
+      bodyAttrs: {
+        class: "antialiased bg-gray-50 dark:bg-black min-h-screen",
+      },
     },
-    nitro: {
-        devServer: {
-          watch: ['./src']
-        }
+  },
+  content: {
+    highlight: {
+      theme: "github-dark",
     },
-    plugins: ["@/plugins/aos"]
-})
+  },
+  googleFonts: {
+    display: "swap",
+    families: {
+      Inter: [400, 500, 600, 700, 800, 900],
+    },
+  },
+});
