@@ -38,13 +38,6 @@ jobs:
           api_location: ".output/server" # Api source code path - optional
           output_location: ".output/public" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
-        # Add your code snippet here
-      - name: Handle _ipx Prefixed Medias
-        run: |
-          # _ipx prefixed medias handled by Nuxt server
-          - url: /(_ipx)(.*\.(gif|png|jpg|ico|txt|webp|webm))$
-            script: auto
-            secure: always
       
 
   close_pull_request_job:
