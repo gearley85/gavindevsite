@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <!-- <div>
     <div class="mb-6 flex items-center gap-3">
       <div
         class="flex-none rounded-full p-1 text-primary-500 bg-primary-500/10"
@@ -22,5 +22,5 @@
       />
       <UButton label="Join &rarr;" size="lg" color="black" />
     </div>
-  </div>
+  </div> -->
 </template>
