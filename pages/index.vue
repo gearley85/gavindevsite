@@ -3,9 +3,9 @@
     <div class="space-y-24">
       <HomeIntro />
       <HomeSocialLinks />
-      <HomeFeaturedProjects />
+      <!-- <HomeFeaturedProjects />
       <HomeFeaturedArticles />
-      <HomeNewsletter />
+      <HomeNewsletter /> -->
     </div>
   </main>
 </template>

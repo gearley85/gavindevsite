@@ -12,7 +12,8 @@
     <p class="text-gray-900 dark:text-gray-400">
       By day, I'm a Fullstack Developer and
       by night (and weekends), I'm busy spending time outdoors with my wife and kids, or
-      my drones.
+      my drones. I also am an amateur photographer. I have pictures on my Instagram below and 
+      also have prints for sale on my Etsy site (links below).
     </p>
   </div>
 </template>
