@@ -9,12 +9,13 @@
     <p class="text-gray-900 dark:text-gray-400">
       Hello, my name is Gavin Earley
     </p>
-    <p class="text-gray-900 dark:text-gray-400">
-      By day, I'm a Fullstack Developer and
-      by night (and weekends), I'm busy spending time outdoors with my wife and kids, or
-      my drones. I also am an amateur photographer. I have pictures on my Instagram below and 
-      also have prints for sale on my Etsy site (links below).
-    </p>
+
+    <h2 class="text-xl font-bold tracking-tight text-gray-800 dark:text-gray-100">
+      Software should always be for helping people and never inhibit a user from what they are trying to accomplish.
+      As a software engineer I strive to build great software that gets out of the way to let the user
+      do what they need to do and be on their way. 
+    </h2>
+
   </div>
 </template>
 
